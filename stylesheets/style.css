@@ -1,0 +1,40 @@
+/* line 1, /Users/jwo/Projects/ironyard/splash_and_paddle/source/stylesheets/_welcome.scss */
+.welcome {
+  background: #16A085;
+  padding: 100px;
+  font-size: 50px; }
+  /* line 6, /Users/jwo/Projects/ironyard/splash_and_paddle/source/stylesheets/_welcome.scss */
+  .welcome h1 {
+    font-size: 80px;
+    text-align: center; }
+
+/* line 1, /Users/jwo/Projects/ironyard/splash_and_paddle/source/stylesheets/_chess.scss */
+.space {
+  width: 125px;
+  height: 125px;
+  float: left;
+  border: 1px solid #000000;
+  font-size: 5em;
+  padding-top: 0.15em;
+  text-align: center; }
+
+/* line 10, /Users/jwo/Projects/ironyard/splash_and_paddle/source/stylesheets/_chess.scss */
+.white {
+  background: #ffffff; }
+
+/* line 14, /Users/jwo/Projects/ironyard/splash_and_paddle/source/stylesheets/_chess.scss */
+.black {
+  background: #cccccc; }
+
+/* line 22, /Users/jwo/Projects/ironyard/splash_and_paddle/source/stylesheets/_chess.scss */
+.game .row:nth-child(2n) .space:nth-child(2n) {
+  background: #cccccc; }
+/* line 28, /Users/jwo/Projects/ironyard/splash_and_paddle/source/stylesheets/_chess.scss */
+.game .row:nth-child(2n+1) .space:nth-child(2n+1) {
+  background: #cccccc; }
+
+/* line 6, /Users/jwo/Projects/ironyard/splash_and_paddle/source/stylesheets/style.scss */
+.pullquote {
+  margin-left: 20px;
+  border-left: 5px solid #9B59B6;
+  padding-left: 10px; }
