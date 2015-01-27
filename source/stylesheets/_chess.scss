@@ -1,0 +1,36 @@
+.space {
+  width: 125px;
+  height: 125px;
+  float: left;
+  border: 1px solid #000000;
+  font-size: 5em;
+  padding-top: 0.15em;
+  text-align: center;
+}
+.white {
+  background: #ffffff;
+}
+
+.black {
+  background: #cccccc;
+}
+
+
+.game {
+
+  .row:nth-child(2n){
+    .space:nth-child(2n) {
+      background: #cccccc;
+    }
+  }
+
+  .row:nth-child(2n+1){
+    .space:nth-child(2n+1) {
+      background: #cccccc;
+    }
+  }
+
+
+
+
+}
